@@ -1,0 +1,1361 @@
+[
+    {
+        "difficulty": "Novice",
+        "length": "Short",
+        "number": 1.0,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/Cook%27s_Assistant",
+        "title": "Cook's Assistant"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Short",
+        "number": 4.0,
+        "quest_points": 5,
+        "series": "None",
+        "slug": "/w/Romeo_%26_Juliet",
+        "title": "Romeo & Juliet"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Medium",
+        "number": 2.0,
+        "quest_points": 3,
+        "series": "None",
+        "slug": "/w/Demon_Slayer",
+        "title": "Demon Slayer"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Medium",
+        "number": 6.0,
+        "quest_points": 1,
+        "series": "Mahjarrat",
+        "slug": "/w/Shield_of_Arrav",
+        "title": "Shield of Arrav"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Short",
+        "number": 5.0,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/Sheep_Shearer",
+        "title": "Sheep Shearer"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Short",
+        "number": 3.0,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/The_Restless_Ghost",
+        "title": "The Restless Ghost"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Short",
+        "number": 7.0,
+        "quest_points": 4,
+        "series": "None",
+        "slug": "/w/Ernest_the_Chicken",
+        "title": "Ernest the Chicken"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Short",
+        "number": 8.0,
+        "quest_points": 3,
+        "series": "None",
+        "slug": "/w/Vampire_Slayer",
+        "title": "Vampire Slayer"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Short",
+        "number": 9.0,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/Imp_Catcher",
+        "title": "Imp Catcher"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Short",
+        "number": 10.0,
+        "quest_points": 3,
+        "series": "None",
+        "slug": "/w/Prince_Ali_Rescue",
+        "title": "Prince Ali Rescue"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Short",
+        "number": 11.0,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/Doric%27s_Quest",
+        "title": "Doric's Quest"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Short",
+        "number": 12.0,
+        "quest_points": 3,
+        "series": "None",
+        "slug": "/w/Black_Knights%27_Fortress",
+        "title": "Black Knights' Fortress"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Short",
+        "number": 13.0,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/Witch%27s_Potion",
+        "title": "Witch's Potion"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "number": 14.0,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/The_Knight%27s_Sword",
+        "title": "The Knight's Sword"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Short",
+        "number": 15.0,
+        "quest_points": 5,
+        "series": "None",
+        "slug": "/w/Goblin_Diplomacy",
+        "title": "Goblin Diplomacy"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Short",
+        "number": 16.0,
+        "quest_points": 2,
+        "series": "Pirate",
+        "slug": "/w/Pirate%27s_Treasure",
+        "title": "Pirate's Treasure"
+    },
+    {
+        "difficulty": "Experienced",
+        "length": "Long",
+        "number": 17.0,
+        "quest_points": 2,
+        "series": "Guild",
+        "slug": "/w/Dragon_Slayer",
+        "title": "Dragon Slayer"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Short",
+        "number": 51.0,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/Rune_Mysteries",
+        "title": "Rune Mysteries"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Medium",
+        "number": 130.0,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/Misthalin_Mystery",
+        "title": "Misthalin Mystery"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Short",
+        "number": 135.0,
+        "quest_points": 2,
+        "series": "None",
+        "slug": "/w/The_Corsair_Curse",
+        "title": "The Corsair Curse"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Short",
+        "number": 18.0,
+        "quest_points": 4,
+        "series": "None",
+        "slug": "/w/Druidic_Ritual",
+        "title": "Druidic Ritual"
+    },
+    {
+        "difficulty": "Experienced",
+        "length": "Short",
+        "number": 19.0,
+        "quest_points": 3,
+        "series": "Fairy Tale",
+        "slug": "/w/Lost_City",
+        "title": "Lost City"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "number": 20.0,
+        "quest_points": 4,
+        "series": "None",
+        "slug": "/w/Witch%27s_House",
+        "title": "Witch's House"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Medium (Short with teleports)",
+        "number": 21.0,
+        "quest_points": 6,
+        "series": "Camelot",
+        "slug": "/w/Merlin%27s_Crystal",
+        "title": "Merlin's Crystal"
+    },
+    {
+        "difficulty": "Experienced",
+        "length": "Medium-Long (can be completed in less than 25 minutes if you already have a partner and all the required items)",
+        "number": 22.0,
+        "quest_points": 1,
+        "series": "Guild",
+        "slug": "/w/Heroes%27_Quest",
+        "title": "Heroes' Quest"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Medium (Short with teleports)",
+        "number": 23.0,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/Scorpion_Catcher",
+        "title": "Scorpion Catcher"
+    },
+    {
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "number": 24.0,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/Family_Crest",
+        "title": "Family Crest"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Very Short (5 minutes)",
+        "number": 27.0,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/Monk%27s_Friend",
+        "title": "Monk's Friend"
+    },
+    {
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "number": 28.0,
+        "quest_points": 1,
+        "series": "Mahjarrat",
+        "slug": "/w/Temple_of_Ikov",
+        "title": "Temple of Ikov"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Short",
+        "number": 29.0,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/Clock_Tower",
+        "title": "Clock Tower"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Medium (Long without teleports)",
+        "number": 30.0,
+        "quest_points": 2,
+        "series": "Camelot (#2)",
+        "slug": "/w/Holy_Grail",
+        "title": "Holy Grail"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Short (with all items at the start, 10-15 minutes total depending on run energy)",
+        "number": 31.0,
+        "quest_points": 2,
+        "series": "Gnome",
+        "slug": "/w/Tree_Gnome_Village",
+        "title": "Tree Gnome Village"
+    },
+    {
+        "difficulty": "Experienced",
+        "length": "Short",
+        "number": 32.0,
+        "quest_points": 2,
+        "series": "Mahjarrat",
+        "slug": "/w/Fight_Arena",
+        "title": "Fight Arena"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Short",
+        "number": 33.0,
+        "quest_points": 1,
+        "series": "Mahjarrat",
+        "slug": "/w/Hazeel_Cult",
+        "title": "Hazeel Cult"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Short",
+        "number": 34.0,
+        "quest_points": 4,
+        "series": "Plague/Elf",
+        "slug": "/w/Sheep_Herder",
+        "title": "Sheep Herder"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Short",
+        "number": 35.0,
+        "quest_points": 1,
+        "series": "Elf",
+        "slug": "/w/Plague_City",
+        "title": "Plague City"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "number": 37.0,
+        "quest_points": 1,
+        "series": "Elf, Gnome",
+        "slug": "/w/Waterfall_Quest",
+        "title": "Waterfall Quest"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Short \u2013 Medium",
+        "number": 39.0,
+        "quest_points": 1,
+        "series": "Karamja",
+        "slug": "/w/Jungle_Potion",
+        "title": "Jungle Potion"
+    },
+    {
+        "difficulty": "Experienced",
+        "length": "Long",
+        "number": 40.0,
+        "quest_points": 5,
+        "series": "Gnome",
+        "slug": "/w/The_Grand_Tree",
+        "title": "The Grand Tree"
+    },
+    {
+        "difficulty": "Experienced",
+        "length": "Long",
+        "number": 42.0,
+        "quest_points": 5,
+        "series": "Elf",
+        "slug": "/w/Underground_Pass",
+        "title": "Underground Pass"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Short \u2013 Medium",
+        "number": 43.0,
+        "quest_points": 2,
+        "series": "None",
+        "slug": "/w/Observatory_Quest",
+        "title": "Observatory Quest"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Long",
+        "number": 45.0,
+        "quest_points": 4,
+        "series": "Ogre",
+        "slug": "/w/Watchtower",
+        "title": "Watchtower"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Short",
+        "number": 46.0,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/Dwarf_Cannon",
+        "title": "Dwarf Cannon"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Short",
+        "number": 47.0,
+        "quest_points": 3,
+        "series": "Camelot",
+        "slug": "/w/Murder_Mystery",
+        "title": "Murder Mystery"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Long",
+        "number": 48.0,
+        "quest_points": 2,
+        "series": "The Return of Zaros",
+        "slug": "/w/The_Dig_Site",
+        "title": "The Dig Site"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Short",
+        "number": 49.0,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/Gertrude%27s_Cat",
+        "title": "Gertrude's Cat"
+    },
+    {
+        "difficulty": "Master",
+        "length": "Very Long; May take several hours to complete.",
+        "number": 50.0,
+        "quest_points": 4,
+        "series": "Karamja, Guild",
+        "slug": "/w/Legends%27_Quest",
+        "title": "Legends' Quest"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Medium",
+        "number": 56.0,
+        "quest_points": 1,
+        "series": "Troll",
+        "slug": "/w/Death_Plateau",
+        "title": "Death Plateau"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "number": 52.0,
+        "quest_points": 2,
+        "series": "Ogre",
+        "slug": "/w/Big_Chompy_Bird_Hunting",
+        "title": "Big Chompy Bird Hunting"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Short",
+        "number": 53.0,
+        "quest_points": 1,
+        "series": "Elemental Workshop",
+        "slug": "/w/Elemental_Workshop_I",
+        "title": "Elemental Workshop I"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Medium",
+        "number": 55.0,
+        "quest_points": 2,
+        "series": "Myreque",
+        "slug": "/w/Nature_Spirit",
+        "title": "Nature Spirit"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Medium",
+        "number": 54.0,
+        "quest_points": 1,
+        "series": "Myreque",
+        "slug": "/w/Priest_in_Peril",
+        "title": "Priest in Peril"
+    },
+    {
+        "difficulty": "Master",
+        "length": "Long",
+        "number": 59.0,
+        "quest_points": 3,
+        "series": "Elf",
+        "slug": "/w/Regicide",
+        "title": "Regicide"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Long",
+        "number": 58.0,
+        "quest_points": 2,
+        "series": "Karamja",
+        "slug": "/w/Tai_Bwo_Wannai_Trio",
+        "title": "Tai Bwo Wannai Trio"
+    },
+    {
+        "difficulty": "Experienced",
+        "length": "Short-Medium",
+        "number": 57.0,
+        "quest_points": 1,
+        "series": "Troll",
+        "slug": "/w/Troll_Stronghold",
+        "title": "Troll Stronghold"
+    },
+    {
+        "difficulty": "Experienced",
+        "length": "Short",
+        "number": 63.0,
+        "quest_points": 2,
+        "series": "Fremennik",
+        "slug": "/w/Horror_from_the_Deep",
+        "title": "Horror from the Deep"
+    },
+    {
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "number": 64.0,
+        "quest_points": 1,
+        "series": "Fremennik",
+        "slug": "/w/Throne_of_Miscellania",
+        "title": "Throne of Miscellania"
+    },
+    {
+        "difficulty": "Master",
+        "length": "Long",
+        "number": 65.0,
+        "quest_points": 3,
+        "series": "Gnome, Monkey",
+        "slug": "/w/Monkey_Madness_I",
+        "title": "Monkey Madness I"
+    },
+    {
+        "difficulty": "Experienced",
+        "length": "Medium (if you're good at puzzling), Long (if you're not)",
+        "number": 66.0,
+        "quest_points": 2,
+        "series": "None",
+        "slug": "/w/Haunted_Mine",
+        "title": "Haunted Mine"
+    },
+    {
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "number": 67.0,
+        "quest_points": 2,
+        "series": "Troll",
+        "slug": "/w/Troll_Romance",
+        "title": "Troll Romance"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "number": 68.0,
+        "quest_points": 2,
+        "series": "Myreque",
+        "slug": "/w/In_Search_of_the_Myreque",
+        "title": "In Search of the Myreque"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "number": 69.0,
+        "quest_points": 2,
+        "series": "None",
+        "slug": "/w/Creature_of_Fenkenstrain",
+        "title": "Creature of Fenkenstrain"
+    },
+    {
+        "difficulty": "Master",
+        "length": "Short-Medium",
+        "number": 70.0,
+        "quest_points": 1,
+        "series": "Elf, Gnome",
+        "slug": "/w/Roving_Elves",
+        "title": "Roving Elves"
+    },
+    {
+        "difficulty": "Experienced",
+        "length": "Very Long (1 Hour)",
+        "number": 72.0,
+        "quest_points": 2,
+        "series": "Karamja",
+        "slug": "/w/One_Small_Favour",
+        "title": "One Small Favour"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "number": 73.0,
+        "quest_points": 2,
+        "series": "Fremennik",
+        "slug": "/w/Mountain_Daughter",
+        "title": "Mountain Daughter"
+    },
+    {
+        "difficulty": "Experienced",
+        "length": "Long (Medium, if all items are acquired)",
+        "number": 74.0,
+        "quest_points": 2,
+        "series": "Rise of the Red Axe",
+        "slug": "/w/Between_a_Rock...",
+        "title": "Between a Rock..."
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "number": 76.0,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/The_Golem",
+        "title": "The Golem"
+    },
+    {
+        "difficulty": "Master",
+        "length": "Very Long",
+        "number": 77.0,
+        "quest_points": 3,
+        "series": "The Return of Zaros and Mahjarrat",
+        "slug": "/w/Desert_Treasure",
+        "title": "Desert Treasure"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Medium / Long",
+        "number": 78.0,
+        "quest_points": 2,
+        "series": "Desert",
+        "slug": "/w/Icthlarin%27s_Little_Helper",
+        "title": "Icthlarin's Little Helper"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Very Short (2 minutes)",
+        "number": 79.0,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/Tears_of_Guthix_(quest)",
+        "title": "Tears of Guthix (quest)"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "number": 81.0,
+        "quest_points": 1,
+        "series": "Dorgeshuun",
+        "slug": "/w/The_Lost_Tribe",
+        "title": "The Lost Tribe"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Medium to Long",
+        "number": 82.0,
+        "quest_points": 2,
+        "series": "Rise of the Red Axe",
+        "slug": "/w/The_Giant_Dwarf",
+        "title": "The Giant Dwarf"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Short",
+        "number": 83.0,
+        "quest_points": 1,
+        "series": "Temple Knight",
+        "slug": "/w/Recruitment_Drive",
+        "title": "Recruitment Drive"
+    },
+    {
+        "difficulty": "Master",
+        "length": "Long to Very Long",
+        "number": 84.0,
+        "quest_points": 2,
+        "series": "Elf",
+        "slug": "/w/Mourning%27s_Ends_Part_I",
+        "title": "Mourning's Ends Part I"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Very long (must wait for several crops to grow)",
+        "number": 86.0,
+        "quest_points": 2,
+        "series": "None",
+        "slug": "/w/Garden_of_Tranquillity",
+        "title": "Garden of Tranquillity"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Long (25-35 minute wait for farm patch to grow)",
+        "number": 87.0,
+        "quest_points": 2,
+        "series": "Dragonkin",
+        "slug": "/w/A_Tail_of_Two_Cats",
+        "title": "A Tail of Two Cats"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Long",
+        "number": 88.0,
+        "quest_points": 1,
+        "series": "Temple Knight",
+        "slug": "/w/Wanted!",
+        "title": "Wanted!"
+    },
+    {
+        "difficulty": "Master",
+        "length": "",
+        "number": 89.0,
+        "quest_points": 2,
+        "series": "Elf",
+        "slug": "/w/Mourning%27s_Ends_Part_II",
+        "title": "Mourning's Ends Part II"
+    },
+    {
+        "difficulty": "Experienced",
+        "length": "Medium, 20-30 minutes",
+        "number": 90.0,
+        "quest_points": 2,
+        "series": "Pirate",
+        "slug": "/w/Rum_Deal",
+        "title": "Rum Deal"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "number": 91.0,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/Shadow_of_the_Storm",
+        "title": "Shadow of the Storm"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Long - Very long (Preparing items and teleports ahead of time will save a significant amount of time. A cat saves you a lot of time too!)",
+        "number": 93.0,
+        "quest_points": 2,
+        "series": "None",
+        "slug": "/w/Ratcatchers",
+        "title": "Ratcatchers"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Short/medium",
+        "number": 94.0,
+        "quest_points": 2,
+        "series": "Desert",
+        "slug": "/w/Spirits_of_the_Elid",
+        "title": "Spirits of the Elid"
+    },
+    {
+        "difficulty": "Experienced",
+        "length": "Short",
+        "number": 95.0,
+        "quest_points": 1,
+        "series": "The Return of Zaros",
+        "slug": "/w/Devious_Minds",
+        "title": "Devious Minds"
+    },
+    {
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "number": 97.0,
+        "quest_points": 2,
+        "series": "Mahjarrat",
+        "slug": "/w/Enakhra%27s_Lament",
+        "title": "Enakhra's Lament"
+    },
+    {
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "number": 98.0,
+        "quest_points": 2,
+        "series": "Pirate",
+        "slug": "/w/Cabin_Fever",
+        "title": "Cabin Fever"
+    },
+    {
+        "difficulty": "Experienced",
+        "length": "Long",
+        "number": 99.0,
+        "quest_points": 2,
+        "series": "Fairy Tale (#2)",
+        "slug": "/w/Fairytale_I_-_Growing_Pains",
+        "title": "Fairytale I - Growing Pains"
+    },
+    {
+        "difficulty": "Special",
+        "length": "Very long",
+        "number": 100.0,
+        "quest_points": 10,
+        "series": "None",
+        "slug": "/w/Recipe_for_Disaster",
+        "title": "Recipe for Disaster"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Long",
+        "number": 101.0,
+        "quest_points": 2,
+        "series": "Myreque",
+        "slug": "/w/In_Aid_of_the_Myreque",
+        "title": "In Aid of the Myreque"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Medium",
+        "number": 102.0,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/A_Soul%27s_Bane",
+        "title": "A Soul's Bane"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Medium",
+        "number": 103.0,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/Rag_and_Bone_Man",
+        "title": "Rag and Bone Man"
+    },
+    {
+        "difficulty": "Master",
+        "length": "Medium",
+        "number": 105.0,
+        "quest_points": 2,
+        "series": "Wise Old Man",
+        "slug": "/w/Swan_Song",
+        "title": "Swan Song"
+    },
+    {
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "number": 106.0,
+        "quest_points": 1,
+        "series": "Fremennik",
+        "slug": "/w/Royal_Trouble",
+        "title": "Royal Trouble"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "number": 107.0,
+        "quest_points": 1,
+        "series": "Dorgeshuun",
+        "slug": "/w/Death_to_the_Dorgeshuun",
+        "title": "Death to the Dorgeshuun"
+    },
+    {
+        "difficulty": "Experienced",
+        "length": "Short-Medium",
+        "number": 108.0,
+        "quest_points": 2,
+        "series": "Fairy Tale (#2)",
+        "slug": "/w/Fairytale_II_-_Cure_a_Queen",
+        "title": "Fairytale II - Cure a Queen"
+    },
+    {
+        "difficulty": "Experienced",
+        "length": "Long",
+        "number": 109.0,
+        "quest_points": 2,
+        "series": "Fremennik",
+        "slug": "/w/Lunar_Diplomacy",
+        "title": "Lunar Diplomacy"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Medium/Long",
+        "number": 110.0,
+        "quest_points": 2,
+        "series": "Gnome",
+        "slug": "/w/The_Eyes_of_Glouphrie",
+        "title": "The Eyes of Glouphrie"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Very Long",
+        "number": 111.0,
+        "quest_points": 2,
+        "series": "Myreque",
+        "slug": "/w/Darkness_of_Hallowvale",
+        "title": "Darkness of Hallowvale"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "number": 113.0,
+        "quest_points": 1,
+        "series": "Elemental Workshop (#2)",
+        "slug": "/w/Elemental_Workshop_II",
+        "title": "Elemental Workshop II"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "number": 114.0,
+        "quest_points": 1,
+        "series": "Troll",
+        "slug": "/w/My_Arm%27s_Big_Adventure",
+        "title": "My Arm's Big Adventure"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Short (Long if growing the tree yourself)",
+        "number": 115.0,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/Enlightened_Journey",
+        "title": "Enlightened Journey"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Medium",
+        "number": 116.0,
+        "quest_points": 2,
+        "series": "None",
+        "slug": "/w/Eagles%27_Peak",
+        "title": "Eagles' Peak"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Medium, long without necessary items",
+        "number": 117.0,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/Animal_Magnetism",
+        "title": "Animal Magnetism"
+    },
+    {
+        "difficulty": "Master",
+        "length": "Medium",
+        "number": 118.0,
+        "quest_points": 1,
+        "series": "Desert",
+        "slug": "/w/Contact!",
+        "title": "Contact!"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Medium-Long",
+        "number": 119.0,
+        "quest_points": 1,
+        "series": "Penguin",
+        "slug": "/w/Cold_War",
+        "title": "Cold War"
+    },
+    {
+        "difficulty": "Experienced",
+        "length": "Long",
+        "number": 120.0,
+        "quest_points": 1,
+        "series": "Fremennik",
+        "slug": "/w/The_Fremennik_Isles",
+        "title": "The Fremennik Isles"
+    },
+    {
+        "difficulty": "Experienced",
+        "length": "Medium",
+        "number": 122.0,
+        "quest_points": 2,
+        "series": "Pirate",
+        "slug": "/w/The_Great_Brain_Robbery",
+        "title": "The Great Brain Robbery"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Medium (Short with teleports)",
+        "number": 123.0,
+        "quest_points": 1,
+        "series": "Runecrafting",
+        "slug": "/w/What_Lies_Below",
+        "title": "What Lies Below"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Short-Long (depending on Agility level and luck)",
+        "number": 124.0,
+        "quest_points": 1,
+        "series": "Fremennik",
+        "slug": "/w/Olaf%27s_Quest",
+        "title": "Olaf's Quest"
+    },
+    {
+        "difficulty": "Master",
+        "length": "Short to Medium",
+        "number": 126.0,
+        "quest_points": 2,
+        "series": "Fremennik",
+        "slug": "/w/Dream_Mentor",
+        "title": "Dream Mentor"
+    },
+    {
+        "difficulty": "Master",
+        "length": "Medium",
+        "number": 127.0,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/Grim_Tales",
+        "title": "Grim Tales"
+    },
+    {
+        "difficulty": "Experienced",
+        "length": "Medium (20-30 mins)",
+        "number": 128.0,
+        "quest_points": 1,
+        "series": "Camelot (#3)",
+        "slug": "/w/King%27s_Ransom",
+        "title": "King's Ransom"
+    },
+    {
+        "difficulty": "Experienced",
+        "length": "Long",
+        "number": 41.0,
+        "quest_points": 2,
+        "series": "Karamja",
+        "slug": "/w/Shilo_Village",
+        "title": "Shilo Village"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Medium",
+        "number": 38.0,
+        "quest_points": 3,
+        "series": "Elf",
+        "slug": "/w/Biohazard",
+        "title": "Biohazard"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Medium",
+        "number": 121.0,
+        "quest_points": 2,
+        "series": "None",
+        "slug": "/w/Tower_of_Life",
+        "title": "Tower of Life"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Long",
+        "number": 104.0,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/Rag_and_Bone_Man_II",
+        "title": "Rag and Bone Man II"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "number": 80.0,
+        "quest_points": 1,
+        "series": "Ogre",
+        "slug": "/w/Zogre_Flesh_Eaters",
+        "title": "Zogre Flesh Eaters"
+    },
+    {
+        "difficulty": "Grandmaster",
+        "length": "Very Long",
+        "number": 129.0,
+        "quest_points": 4,
+        "series": "Gnome, Monkey",
+        "slug": "/w/Monkey_Madness_II",
+        "title": "Monkey Madness II"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Medium",
+        "number": 131.0,
+        "quest_points": 1,
+        "series": "The Return of Xeric",
+        "slug": "/w/Client_of_Kourend",
+        "title": "Client of Kourend"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Short",
+        "number": 133.0,
+        "quest_points": 1,
+        "series": "The Return of Xeric",
+        "slug": "/w/The_Queen_of_Thieves",
+        "title": "The Queen of Thieves"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Short-Medium",
+        "number": 132.0,
+        "quest_points": 1,
+        "series": "N/A",
+        "slug": "/w/Bone_Voyage",
+        "title": "Bone Voyage"
+    },
+    {
+        "difficulty": "Grandmaster",
+        "length": "Very Long (2 Hours)",
+        "number": 136.0,
+        "quest_points": 5,
+        "series": "Dragonkin",
+        "slug": "/w/Dragon_Slayer_II",
+        "title": "Dragon Slayer II"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Short",
+        "number": 134.0,
+        "quest_points": 1,
+        "series": "The Return of Xeric",
+        "slug": "/w/The_Depths_of_Despair",
+        "title": "The Depths of Despair"
+    },
+    {
+        "difficulty": "Special",
+        "length": "Short",
+        "number": 100.1,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/Recipe_for_Disaster/Another_Cook%27s_Quest",
+        "title": "Recipe for Disaster/Another Cook's Quest"
+    },
+    {
+        "difficulty": "Special",
+        "length": "Short",
+        "number": 100.3,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/Recipe_for_Disaster/Freeing_the_Goblin_generals",
+        "title": "Recipe for Disaster/Freeing the Goblin generals"
+    },
+    {
+        "difficulty": "Special",
+        "length": "Short",
+        "number": 100.2,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/Recipe_for_Disaster/Freeing_the_Mountain_Dwarf",
+        "title": "Recipe for Disaster/Freeing the Mountain Dwarf"
+    },
+    {
+        "difficulty": "Special",
+        "length": "Medium",
+        "number": 100.6,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/Recipe_for_Disaster/Freeing_Evil_Dave",
+        "title": "Recipe for Disaster/Freeing Evil Dave"
+    },
+    {
+        "difficulty": "Special",
+        "length": "Medium",
+        "number": 100.4,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/Recipe_for_Disaster/Freeing_Pirate_Pete",
+        "title": "Recipe for Disaster/Freeing Pirate Pete"
+    },
+    {
+        "difficulty": "Special",
+        "length": "Short",
+        "number": 100.5,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/Recipe_for_Disaster/Freeing_the_Lumbridge_Guide",
+        "title": "Recipe for Disaster/Freeing the Lumbridge Guide"
+    },
+    {
+        "difficulty": "Special",
+        "length": "Medium",
+        "number": 100.8,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/Recipe_for_Disaster/Freeing_Sir_Amik_Varze",
+        "title": "Recipe for Disaster/Freeing Sir Amik Varze"
+    },
+    {
+        "difficulty": "Special",
+        "length": "Medium - Long",
+        "number": 100.7,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/Recipe_for_Disaster/Freeing_King_Awowogei",
+        "title": "Recipe for Disaster/Freeing King Awowogei"
+    },
+    {
+        "difficulty": "Special",
+        "length": "Medium",
+        "number": 100.9,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/Recipe_for_Disaster/Freeing_Skrach_Uglogwee",
+        "title": "Recipe for Disaster/Freeing Skrach Uglogwee"
+    },
+    {
+        "difficulty": "Experienced",
+        "length": "Long",
+        "number": 138.0,
+        "quest_points": 1,
+        "series": "Myreque",
+        "slug": "/w/A_Taste_of_Hope",
+        "title": "A Taste of Hope"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Medium",
+        "number": 137.0,
+        "quest_points": 1,
+        "series": "The Return of Xeric",
+        "slug": "/w/Tale_of_the_Righteous",
+        "title": "Tale of the Righteous"
+    },
+    {
+        "difficulty": "Master",
+        "length": "Medium",
+        "number": 139.0,
+        "quest_points": 2,
+        "series": "Troll",
+        "slug": "/w/Making_Friends_with_My_Arm",
+        "title": "Making Friends with My Arm"
+    },
+    {
+        "difficulty": "Special",
+        "length": "Short",
+        "number": 100.1,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/Recipe_for_Disaster/Defeating_the_Culinaromancer",
+        "title": "Recipe for Disaster/Defeating the Culinaromancer"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Short",
+        "number": 141.0,
+        "quest_points": 1,
+        "series": "The Return of Xeric",
+        "slug": "/w/The_Ascent_of_Arceuus",
+        "title": "The Ascent of Arceuus"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Medium",
+        "number": 140.0,
+        "quest_points": 1,
+        "series": "The Return of Xeric",
+        "slug": "/w/The_Forsaken_Tower",
+        "title": "The Forsaken Tower"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Short",
+        "number": 26.0,
+        "quest_points": 1,
+        "series": "Dwarf",
+        "slug": "/w/Fishing_Contest",
+        "title": "Fishing Contest"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "number": 25.0,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/Tribal_Totem",
+        "title": "Tribal Totem"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "number": 36.0,
+        "quest_points": 1,
+        "series": "Sea Slug",
+        "slug": "/w/Sea_Slug",
+        "title": "Sea Slug"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "number": 44.0,
+        "quest_points": 2,
+        "series": "Desert",
+        "slug": "/w/The_Tourist_Trap",
+        "title": "The Tourist Trap"
+    },
+    {
+        "difficulty": "Experienced",
+        "length": "Medium-Long",
+        "number": 60.0,
+        "quest_points": 1,
+        "series": "Troll",
+        "slug": "/w/Eadgar%27s_Ruse",
+        "title": "Eadgar's Ruse"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Short",
+        "number": 61.0,
+        "quest_points": 3,
+        "series": "Mort'ton",
+        "slug": "/w/Shades_of_Mort%27ton",
+        "title": "Shades of Mort'ton"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Long",
+        "number": 62.0,
+        "quest_points": 3,
+        "series": "Fremennik",
+        "slug": "/w/The_Fremennik_Trials",
+        "title": "The Fremennik Trials"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Medium-Long (without dyes/energy potions)",
+        "number": 71.0,
+        "quest_points": 2,
+        "series": "None",
+        "slug": "/w/Ghosts_Ahoy",
+        "title": "Ghosts Ahoy"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "number": 75.0,
+        "quest_points": 1,
+        "series": "Desert",
+        "slug": "/w/The_Feud",
+        "title": "The Feud"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Long (40+ minutes of waiting)",
+        "number": 85.0,
+        "quest_points": 2,
+        "series": "Rise of the Red Axe",
+        "slug": "/w/Forgettable_Tale...",
+        "title": "Forgettable Tale..."
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Long (Short with teleports)",
+        "number": 92.0,
+        "quest_points": 3,
+        "series": "Enchanted Key",
+        "slug": "/w/Making_History",
+        "title": "Making History"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "number": 96.0,
+        "quest_points": 1,
+        "series": "None",
+        "slug": "/w/The_Hand_in_the_Sand",
+        "title": "The Hand in the Sand"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Medium - Long",
+        "number": 112.0,
+        "quest_points": 1,
+        "series": "Sea SlugTemple Knight",
+        "slug": "/w/The_Slug_Menace",
+        "title": "The Slug Menace"
+    },
+    {
+        "difficulty": "Intermediate",
+        "length": "Medium",
+        "number": 125.0,
+        "quest_points": 1,
+        "series": "Dorgeshuun (#4)",
+        "slug": "/w/Another_Slice_of_H.A.M.",
+        "title": "Another Slice of H.A.M."
+    }
+]
