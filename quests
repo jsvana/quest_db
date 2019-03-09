@@ -163,7 +163,7 @@
     },
     {
         "difficulty": "Novice",
-        "length": "Medium",
+        "length": "Short",
         "number": 130.0,
         "quest_points": 1,
         "series": "None",
@@ -178,6 +178,15 @@
         "series": "None",
         "slug": "/w/The_Corsair_Curse",
         "title": "The Corsair Curse"
+    },
+    {
+        "difficulty": "Novice",
+        "length": "Short (Under 10 minutes)",
+        "number": 142.0,
+        "quest_points": 1,
+        "series": "Great Kourend",
+        "slug": "/w/X_Marks_the_Spot",
+        "title": "X Marks the Spot"
     },
     {
         "difficulty": "Novice",
@@ -626,8 +635,8 @@
         "number": 79.0,
         "quest_points": 1,
         "series": "None",
-        "slug": "/w/Tears_of_Guthix_(quest)",
-        "title": "Tears of Guthix (quest)"
+        "slug": "/w/Tears_of_Guthix",
+        "title": "Tears of Guthix"
     },
     {
         "difficulty": "Intermediate",
@@ -694,7 +703,7 @@
     },
     {
         "difficulty": "Master",
-        "length": "",
+        "length": "Very Long",
         "number": 89.0,
         "quest_points": 2,
         "series": "Elf",
@@ -1000,7 +1009,7 @@
     },
     {
         "difficulty": "Experienced",
-        "length": "Long",
+        "length": "Medium-long (20-30 minutes)",
         "number": 41.0,
         "quest_points": 2,
         "series": "Karamja",
@@ -1057,7 +1066,7 @@
         "length": "Medium",
         "number": 131.0,
         "quest_points": 1,
-        "series": "The Return of Xeric",
+        "series": "Great Kourend",
         "slug": "/w/Client_of_Kourend",
         "title": "Client of Kourend"
     },
@@ -1066,7 +1075,7 @@
         "length": "Short",
         "number": 133.0,
         "quest_points": 1,
-        "series": "The Return of Xeric",
+        "series": "Great Kourend",
         "slug": "/w/The_Queen_of_Thieves",
         "title": "The Queen of Thieves"
     },
@@ -1093,7 +1102,7 @@
         "length": "Short",
         "number": 134.0,
         "quest_points": 1,
-        "series": "The Return of Xeric",
+        "series": "Great Kourend",
         "slug": "/w/The_Depths_of_Despair",
         "title": "The Depths of Despair"
     },
@@ -1192,7 +1201,7 @@
         "length": "Medium",
         "number": 137.0,
         "quest_points": 1,
-        "series": "The Return of Xeric",
+        "series": "Great Kourend",
         "slug": "/w/Tale_of_the_Righteous",
         "title": "Tale of the Righteous"
     },
@@ -1216,10 +1225,10 @@
     },
     {
         "difficulty": "Novice",
-        "length": "Short",
+        "length": "Medium",
         "number": 141.0,
         "quest_points": 1,
-        "series": "The Return of Xeric",
+        "series": "Great Kourend",
         "slug": "/w/The_Ascent_of_Arceuus",
         "title": "The Ascent of Arceuus"
     },
@@ -1228,7 +1237,7 @@
         "length": "Medium",
         "number": 140.0,
         "quest_points": 1,
-        "series": "The Return of Xeric",
+        "series": "Great Kourend",
         "slug": "/w/The_Forsaken_Tower",
         "title": "The Forsaken Tower"
     },

@@ -1,0 +1,12 @@
+digraph {
+  node[style=filled, fillcolor=darkslategray1];
+  "Eadgar's Ruse";
+  "Troll Stronghold";
+  node[style=filled, fillcolor=darkseagreen];
+  "31 Herblore";
+  "44 Agility";
+  node[style=filled, fillcolor=white];
+  "Troll Stronghold" -> "Eadgar's Ruse";
+  "31 Herblore" -> "Eadgar's Ruse";
+  "44 Agility" -> "Eadgar's Ruse";
+}
