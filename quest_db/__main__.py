@@ -192,6 +192,10 @@ class Requirement:
         return self.__repr__()
 
 
+class EmptyRequirement(Requirement):
+    pass
+
+
 class UnknownRequirement(Requirement):
     def __init__(self, text):
         super().__init__()
@@ -209,6 +213,7 @@ class QuestRequirement(Requirement):
     def __init__(self, name):
         super().__init__()
         self.name = name
+        self.queried = False
 
     def __repr__(self):
         return f"QuestRequirement({self.name}{self._dependency_repr})"
@@ -232,7 +237,29 @@ class SkillRequirement(Requirement):
         return f'"{self.level} {self.name}"'
 
 
-REQUIREMENT_RE = re.compile(r"\*(\**).+(\[\[([^\]]+?)\]\].*)+")
+def remove_empty_requirements(requirements):
+    if not requirements or not requirements.dependencies:
+        return requirements
+
+    queue = deque()
+    for dependency in requirements.dependencies:
+        queue.append(dependency)
+
+    paths = []
+    while queue:
+        dependency = queue.popleft()
+
+        for dep in dependency.dependencies:
+            if isinstance(dependency, EmptyRequirement):
+                dep.parent = dependency.parent
+                dep.parent.add_dependency(dep)
+            queue.append(dep)
+
+        if isinstance(dependency, EmptyRequirement):
+            dependency.parent.dependencies.remove(dependency)
+            dependency.parent = None
+
+    return requirements
 
 
 def parse_requirements(
@@ -244,55 +271,10 @@ def parse_requirements(
     last_req = None
     last_level = 0
     for part in str(requirements).strip().split("\n"):
-        if not any(p in part for p in {"{{", "[["}):
-            continue
-
-        print(part)
-        if "Skill clickpic" in part:
-            part = part.lstrip("*")
-
-            skill_parts = part.replace("{", "").replace("}", "").split("|")
-            last_req = SkillRequirement(
-                skill_parts[1], int(skill_parts[2].split(" ")[0])
-            )
-            requirement.add_dependency(last_req)
-            continue
-
-        m = REQUIREMENT_RE.match(part)
-        if not m:
-            part = part[1:]
-            full_len = len(part)
-            part = part.lstrip("*")
-            current_level = full_len - len(part)
-            if current_level > last_level:
-                if current_level - last_level > 1:
-                    print(f"WTF GROWING TOO MUCH {current_level} {last_level}")
-                    1 / 0
-
-                requirement = last_req
-                last_level = current_level
-            else:
-                while current_level < last_level:
-                    if requirement is root_requirement:
-                        print(
-                            f"WTF CAN'T GO ANY FURTHER UP {current_level} {last_level}"
-                        )
-                        1 / 0
-
-                    if requirement.parent is None:
-                        print(f"WTF NO PARENT {requirement}")
-                        1 / 0
-
-                    requirement = requirement.parent
-                    last_level -= 1
-
-            last_req = UnknownRequirement(part)
-            requirement.add_dependency(last_req)
-            continue
-
-        print(m.groups())
-        stars, name = m.groups()
-        current_level = len(stars)
+        part = part[1:]
+        full_len = len(part)
+        part = part.lstrip("*")
+        current_level = full_len - len(part)
         if current_level > last_level:
             if current_level - last_level > 1:
                 print(f"WTF GROWING TOO MUCH {current_level} {last_level}")
@@ -313,20 +295,37 @@ def parse_requirements(
                 requirement = requirement.parent
                 last_level -= 1
 
-        last_level = current_level
+        if not any(p in part for p in {"{{", "[["}):
+            last_req = EmptyRequirement()
+            requirement.add_dependency(last_req)
+            continue
 
-        if quest_db.quest_exists(name):
-            last_req = QuestRequirement(name)
-        else:
+        if "Skill clickpic" in part:
+            skill_parts = part.replace("{", "").replace("}", "").split("|")
+            last_req = SkillRequirement(
+                skill_parts[1], int(skill_parts[2].split(" ")[0])
+            )
+            requirement.add_dependency(last_req)
+            continue
+
+        matches = re.findall(r"\[\[([^\]]+?)\]\]", part)
+        found_useful_thing = False
+        for match in matches:
+            if quest_db.quest_exists(match):
+                last_req = QuestRequirement(match)
+                found_useful_thing = True
+                requirement.add_dependency(last_req)
+
+        if not found_useful_thing:
             last_req = UnknownRequirement(
                 part.lstrip("*").replace("[", "").replace("]", "")
             )
-        requirement.add_dependency(last_req)
+            requirement.add_dependency(last_req)
 
-    while requirement.parent is not None:
-        requirement = requirement.parent
+    root_requirement = remove_empty_requirements(root_requirement)
 
-    return requirement
+    root_requirement.queried = True
+    return root_requirement
 
 
 def find_quest(requirements, quest_name):
