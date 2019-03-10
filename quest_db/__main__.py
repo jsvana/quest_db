@@ -23,6 +23,14 @@ class TooManyDetailsFoundError(Exception):
     pass
 
 
+class TooManyAddedLevelsError(Exception):
+    pass
+
+
+class NoRemainingParentsError(Exception):
+    pass
+
+
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -277,20 +285,14 @@ def parse_requirements(
         current_level = full_len - len(part)
         if current_level > last_level:
             if current_level - last_level > 1:
-                print(f"WTF GROWING TOO MUCH {current_level} {last_level}")
-                1 / 0
+                raise TooManyAddedLevelsError()
 
             requirement = last_req
             last_level = current_level
         else:
             while current_level < last_level:
-                if requirement is root_requirement:
-                    print(f"WTF CAN'T GO ANY FURTHER UP {current_level} {last_level}")
-                    1 / 0
-
-                if requirement.parent is None:
-                    print(f"WTF NO PARENT {requirement}")
-                    1 / 0
+                if requirement is root_requirement or requirement.parent is None:
+                    raise NoRemainingParentsError()
 
                 requirement = requirement.parent
                 last_level -= 1
