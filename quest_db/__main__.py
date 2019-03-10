@@ -1,5 +1,6 @@
 import argparse
 import json
+import logging
 import pathlib
 import re
 import sys
@@ -13,6 +14,9 @@ from tabulate import tabulate
 import mwparserfromhell
 
 from .level import LevelNameType, get_levels
+
+LOG = logging.getLogger(__name__)
+LOG.setLevel(logging.INFO)
 
 
 class DetailsNotFoundError(Exception):
@@ -221,7 +225,6 @@ class QuestRequirement(Requirement):
     def __init__(self, name):
         super().__init__()
         self.name = name
-        self.queried = False
 
     def __repr__(self):
         return f"QuestRequirement({self.name}{self._dependency_repr})"
@@ -271,14 +274,23 @@ def remove_empty_requirements(requirements):
 
 
 def parse_requirements(
-    quest_db, quest_name, requirements: mwparserfromhell.wikicode.Wikicode
+    quest_db,
+    quest_name,
+    wiki_requirements: mwparserfromhell.wikicode.Wikicode,
+    base_requirement,
+    fetched_quests,
 ):
     skills = []
-    root_requirement = QuestRequirement(quest_name)
+    root_requirement = find_quest(base_requirement, quest_name)
+    if root_requirement is None:
+        root_requirement = base_requirement
+
+    # Build list of quest names to fetch, pass in list of already fetched quests
+    quests_to_fetch = set()
     requirement = root_requirement
     last_req = None
     last_level = 0
-    for part in str(requirements).strip().split("\n"):
+    for part in str(wiki_requirements).strip().split("\n"):
         part = part[1:]
         full_len = len(part)
         part = part.lstrip("*")
@@ -303,10 +315,21 @@ def parse_requirements(
             continue
 
         if "Skill clickpic" in part:
-            skill_parts = part.replace("{", "").replace("}", "").split("|")
-            last_req = SkillRequirement(
-                skill_parts[1], int(skill_parts[2].split(" ")[0])
-            )
+            if part.startswith("{{"):
+                skill_parts = part.replace("{", "").replace("}", "").split("|")
+                last_req = SkillRequirement(
+                    skill_parts[1], int(skill_parts[2].split(" ")[0])
+                )
+            else:
+                try:
+                    space_parts = part.split(" ")
+                    level = int(space_parts[0])
+                    name = space_parts[2].split("|")[1].replace("}}", "")
+                    last_req = SkillRequirement(name, level)
+                except Exception:
+                    LOG.warning(f"Unable to determine skill for line: {part}")
+                    continue
+
             requirement.add_dependency(last_req)
             continue
 
@@ -314,6 +337,8 @@ def parse_requirements(
         found_useful_thing = False
         for match in matches:
             if quest_db.quest_exists(match):
+                if match not in fetched_quests:
+                    quests_to_fetch.add(match)
                 last_req = QuestRequirement(match)
                 found_useful_thing = True
                 requirement.add_dependency(last_req)
@@ -324,10 +349,13 @@ def parse_requirements(
             )
             requirement.add_dependency(last_req)
 
-    root_requirement = remove_empty_requirements(root_requirement)
+    for quest in sorted(quests_to_fetch):
+        requirement_node = get_quest_requirements_and_merge(
+            quest_db, quest, base_requirement, fetched_quests
+        )
+        fetched_quests.add(quest)
 
-    root_requirement.queried = True
-    return root_requirement
+    return remove_empty_requirements(root_requirement)
 
 
 def find_quest(requirements, quest_name):
@@ -341,7 +369,7 @@ def find_quest(requirements, quest_name):
     paths = []
     while queue:
         dependency = queue.popleft()
-        if dependency.name == quest_name:
+        if isinstance(dependency, QuestRequirement) and dependency.name == quest_name:
             return dependency
 
         for dep in dependency.dependencies:
@@ -389,7 +417,9 @@ def build_dot_repr(requirements):
     return "\n".join(lines)
 
 
-def get_quest_requirements(quest_db, quest_name):
+def get_quest_requirements_and_merge(
+    quest_db, quest_name, requirements, fetched_quests
+):
     custom_agent = {"User-Agent": "quest-script", "From": "user@script"}
 
     # Construct the parameters of the API query
@@ -409,16 +439,34 @@ def get_quest_requirements(quest_db, quest_name):
     p = mwparserfromhell.parse(result["parse"]["wikitext"]["*"])
     templates = p.filter_templates(matches="Quest details")
     if not templates:
-        raise DetailsNotFoundError
+        raise DetailsNotFoundError()
 
     if len(templates) > 1:
-        raise TooManyDetailsFoundError
+        raise TooManyDetailsFoundError()
 
     template = templates[0]
-    requirements = parse_requirements(
-        quest_db, quest_name, template.get("requirements").value
+    try:
+        quest_requirements = template.get("requirements")
+    except ValueError:
+        fetched_quests.add(quest_name)
+        return QuestRequirement(quest_name)
+
+    return parse_requirements(
+        quest_db,
+        quest_name,
+        quest_requirements.value,
+        requirements,
+        fetched_quests=fetched_quests,
     )
 
+
+def get_quest_requirements(quest_db, quest_name):
+    requirements = get_quest_requirements_and_merge(
+        quest_db,
+        quest_name,
+        requirements=QuestRequirement(quest_name),
+        fetched_quests=set(),
+    )
     print(build_dot_repr(requirements))
     # print(find_quest(requirements, "Dream Mentor"))
 
@@ -430,7 +478,7 @@ def main():
 
     if args.load_quest_data_from:
         if not args.load_quest_data_from.is_file():
-            print(
+            LOG.error(
                 f'Specified quest data file "{args.load_quest_data_from}" does not exist'
             )
             return 1
@@ -452,7 +500,7 @@ def main():
         for skill, requirement in quest.requirements.items():
             level_data = player_levels.get(skill)
             if level_data is None:
-                print(f'Unknown requirement "{skill}"')
+                LOG.error(f'Unknown requirement "{skill}"')
                 continue
 
             current_level = level_data["level"]
